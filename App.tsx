@@ -1,9 +1,11 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import {SafeAreaView, StyleSheet} from 'react-native';
 import {PaperProvider} from 'react-native-paper';
 
 import IonIcon from 'react-native-vector-icons/Ionicons';
 
-import {PositionScreen} from './src/presentation/screens/PositionScreen';
+import {FlexDirectionScreen} from './src/presentation/screens/FlexDirectionScreen';
+import {HomeworkScreen} from './src/presentation/screens/HomeworkScreen';
 
 const IconComponent = (props: React.ComponentProps<typeof IonIcon>) => (
   <IonIcon {...props} />
@@ -21,7 +23,9 @@ export const App = () => {
         {/* <CounterScreenM3 /> */}
         {/* <BoxObjectModelScreen /> */}
         {/* <DimensionsScreen /> */}
-        <PositionScreen />
+        {/* <PositionScreen /> */}
+        {/* <FlexDirectionScreen /> */}
+        <HomeworkScreen />
       </SafeAreaView>
     </PaperProvider>
   );
